@@ -1,0 +1,76 @@
+/* 整体页面样式 */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* 头部样式 */
+  .resume-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 28px;
+  }
+  
+  .contact-info table {
+    border-collapse: collapse;
+  }
+  
+  .contact-info td {
+    padding: 8px;
+    border: none;
+    vertical-align: top;
+  }
+  
+  .profile-picture {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+  }
+  
+  /* 各部分通用样式 */
+  .section {
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .section-title {
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+  }
+  
+  /* 技能特长列表样式 */
+  .skills-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* 证书列表样式 */
+  .certificates-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* 实习经历和校园经历文章样式 */
+  .internship-item,
+  .campus-item {
+    margin-bottom: 20px;
+  }
+  
+  .internship-item h3,
+  .campus-item h3 {
+    margin-top: 0;
+  }
